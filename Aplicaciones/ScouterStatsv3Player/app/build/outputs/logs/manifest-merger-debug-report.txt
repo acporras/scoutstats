@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:7:5-28:19
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.scouterperu.scouterstatsv3player.SignInActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:15:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.scouterperu.scouterstatsv3player.PartidosActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:22:9-24:55
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:23:13-45
+activity#com.scouterperu.scouterstatsv3player.MostrarEstadisticasActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:25:9-27:68
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:27:13-65
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml:26:13-56
+uses-sdk
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:20:5-44
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Player/app/src/main/AndroidManifest.xml

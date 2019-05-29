@@ -1,0 +1,4 @@
+#Wed May 08 01:47:46 PET 2019
+base.0=/home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex

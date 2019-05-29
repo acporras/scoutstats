@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Jan 17 15:25:16 PET 2019
+0.baseType=DIRECTORY
+0.base=/home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Coach/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.path=ScouterStatsV3.db
+0.set=ASSET
+count=1

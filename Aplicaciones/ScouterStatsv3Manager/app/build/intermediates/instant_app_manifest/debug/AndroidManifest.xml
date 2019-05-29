@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scouterperu.scouterstatsv3manager"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.scouterperu.scouterstatsv3manager.SignInActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SedesActivity"
+            android:label="@string/sedes_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EquiposActivity"
+            android:label="@string/equipos_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.AgregarEquipoActivity"
+            android:label="@string/equipos_agregar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.JugadoresActivity"
+            android:label="@string/jugadores_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.AgregarJugadorActivity"
+            android:label="@string/jugadores_agregar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.JugadorActivity"
+            android:label="@string/jugador_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EntrenadoresActivity"
+            android:label="@string/entrenadores_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EntrenadorActivity"
+            android:label="@string/entrenador_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.AgregarEntrenadorActivity"
+            android:label="@string/entrenadores_agregar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EquipoActivity"
+            android:label="@string/equipo_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EliminarEntrenadorActivity"
+            android:label="@string/entrenadores_eliminar_entrenadores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EliminarEquipoActivity"
+            android:label="@string/equipos_eliminar_equipos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.EliminarJugadorActivity"
+            android:label="@string/jugadores_eliminar_jugadores"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.PartidosActivity"
+            android:label="@string/partidos_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.FormacionesActivity"
+            android:label="@string/formaciones_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.AgregarPartidoActivity"
+            android:label="@string/partidos_agregar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.MostrarEstadisticasActivity"
+            android:label="@string/partido_mostrar_estadisticas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarTitularesActivity"
+            android:label="@string/seleccionar_titulares_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarPosiciones_F_4_4_2_Activity"
+            android:label="@string/formacion_4_4_2_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarPosiciones_F_4_3_3_Activity"
+            android:label="@string/formacion_4_3_3_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarPosiciones_F_4_5_1_Activity"
+            android:label="@string/formacion_4_5_1_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarPosiciones_F_3_5_2_Activity"
+            android:label="@string/formacion_3_5_2_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.Analizar_F_4_4_2_Activity"
+            android:label="@string/analisis_4_4_2_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.SeleccionarAccionActivity"
+            android:label="@string/acciones_seleccionar_accion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.Analizar_F_4_3_3_Activity"
+            android:label="@string/analisis_4_3_3_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.Analizar_F_4_5_1_Activity"
+            android:label="@string/analisis_4_5_1_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.Analizar_F_3_5_2_Activity"
+            android:label="@string/analisis_3_5_2_titulo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.ConfirmarResultadoPartidoActivity"
+            android:label="@string/confirmar_resultado_partido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.PartidosEntrenadorActivity"
+            android:label="@string/entrenador_partidos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.DeudaResumenActivity"
+            android:label="@string/deuda_resumen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.scouterperu.scouterstatsv3manager.PagarActivity"
+            android:label="@string/pagar" />
+    </application>
+
+</manifest>

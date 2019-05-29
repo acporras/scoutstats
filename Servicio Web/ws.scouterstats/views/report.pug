@@ -1,0 +1,303 @@
+doctype html
+html.backgroundColor(lang="es-PE")
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title Perú Fútbol Stats - Reportes
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon', rel='stylesheet', type='text/css')
+		link(rel='shortcut icon', href='/static/img/favicon.jpg')
+		// CSS
+		link(rel='stylesheet', type='text/css', href='/static/css/bootstrap.css')
+		link(rel='stylesheet', type='text/css', href='/static/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='/static/css/animate.css')
+		link(rel='stylesheet', type='text/css', href='/static/css/YTPlayer.css')
+		link(rel='stylesheet', type='text/css', href='/static/css/styles.css')
+	style.
+		#dreportcontent{
+			background-color: #FFFFFF;
+			border-radius: 20px;
+			padding: 10px;
+			color: #000000;
+		}
+		.match{
+			border-color: #000000;
+			border-style: solid;
+		}
+		.separate{
+			margin-top: 45px;
+		}
+		.centercab{
+			width : 50%;
+			text-align : center;
+		}
+	body
+		// CONTAINER
+		.container#app
+			.col-md-12
+				.section.clearfix
+					h1.logo2.animated.fadeInDown Perú Fútbol Stats
+					#text_slider
+						.slide.clearfix
+							h2.logo Reportes estadísticos
+				.section.clearfix.animated.fadeIn
+					.row
+						#dreport.col-md-12
+							if (status == 'ERROR')
+								span #{message}
+							else if (transactionResponse.length <= 0)
+								span No se ha encontrado información para mostrar
+							else
+								#dreportcontent.col-md-12
+									.col-md-1
+										input.btn.btn-primary(@click="print" type="button", value="Descargar")
+									#downloading.col-md-3(v-if="seen")
+										img(src="/static/img/loading.gif", width="40px")
+										span Descargando
+									#contenido.col-md-12
+										if(transactionResponse.clubes.length <= 0)
+											span No se ha encontrado información para mostrar
+										else
+											each club in transactionResponse.clubes
+												- var cod_club = club.nid_cluapp
+												h2.logo Club #{club.no_nomclu}
+												if(club.sedes.length <= 0)
+													span No se ha encontrado información para mostrar
+												else
+													- var aux_sede = 0
+													each sede in club.sedes
+														.row
+															.col-md-12
+																if(aux_sede == 0)
+																	h3.logo Sede #{sede.no_stsede}
+																else
+																	h3.logo.separate Sede #{sede.no_stsede}
+																- aux_sede++
+																if(sede.equipos.length <= 0)
+																	span No se ha encontrado información para mostrar
+																else
+																	- var aux_equipo = 0
+																	each equipo in sede.equipos
+																		.row
+																			.col-md-12
+																				if(aux_equipo == 0)
+																					h4.logo Equipo #{equipo.no_equipo}
+																				else
+																					h4.logo.separate Equipo #{equipo.no_equipo}
+																				- aux_equipo++
+																				if(equipo.partidos.length <=0)
+																					span No se ha encontrado información para mostrar
+																				else
+																					- var aux_partido = 0
+																					each partido in equipo.partidos
+																							.row
+																								.col-md-12
+																									if(aux_partido == 0)
+																										h5.logo Partido #{equipo.no_equipo} vs #{partido.no_equcon} - #{partido.fe_fecpar}
+																									else
+																										h5.logo.separate Partido #{equipo.no_equipo} vs #{partido.no_equcon} - #{partido.fe_fecpar}
+																									- aux_partido++
+																							each accion in transactionResponse.acciones
+																								.col-md-6
+																									if(transactionResponse.type == 1)
+																										- var cod = partido.nid_partid + '' + accion.nid_accion
+																										br
+																										br
+																										canvas(id=cod)
+																									else
+																										br
+																										br
+																										table.table.table-hover.table-sm(id=cod)
+																											thead
+																												tr
+																													th.centercab(scope="col") Jugador
+																													th.centercab(scope="col") #{accion.no_accion}
+																											tbody
+																												each jugador in equipo.jugadores
+																													tr
+																														td #{jugador.no_jugado}
+																														each estadistica in partido.estadisticas
+																															if(estadistica.nid_jugado == jugador.nid_jugado && estadistica.nid_accion == accion.nid_accion)
+																																td #{estadistica.qt_accion}
+				#contact.section.clearfix.animated.fadeIn
+					a(href='#')
+						i.fa.fa-envelope-o
+						|  ggoyzueta@perufutbolstats.com
+					a(href='#')
+						i.fa.fa-phone
+						|  (+51) 983 400 765
+					.section.clearfix
+						a.btn.btn-transparent.btn-facebook(href='#')
+							i.fa.fa-facebook.fa-fw
+						a.btn.btn-transparent.btn-twitter(href='#')
+							i.fa.fa-twitter.fa-fw
+						a.btn.btn-transparent.btn-googleplus(href='#')
+							i.fa.fa-google-plus.fa-fw
+						a.btn.btn-transparent.btn-youtube(href='#')
+							i.fa.fa-youtube.fa-fw
+						a.btn.btn-transparent.btn-pinterest(href='#')
+							i.fa.fa-pinterest.fa-fw
+						a.btn.btn-transparent.btn-instagram(href='#')
+							i.fa.fa-instagram.fa-fw
+						a.btn.btn-transparent.btn-linkedin(href='#')
+							i.fa.fa-linkedin.fa-fw
+					.section.clearfix
+						a.open_aboutus.btn.btn-transparent.animated.fadeInUp(href='#') Más acerca de la compañia
+		#footer
+			p Diseñado por www.sociallazy.com
+		#about_us
+			h1 Sobre nosotros
+			.container
+				.row
+					.col-lg-12
+						p
+							| Muy pronto tendras mas información sobre nosotros.	
+			a.close_aboutus.btn.btn-default(href='#')
+				i.fa.fa-times-circle
+				|  Cerrar
+		// END CONTAINER
+	// JS
+	script(src='/static/js/jquery.min.js')
+	script(src='/static/js/jquery.plugin.js')
+	script(src='/static/js/bootstrap.min.js')
+	script(src='/static/js/jquery.countdown.min.js')
+	script(src='/static/js/supersized.min.js')
+	script(src='/static/js/jquery.cycle.min.js')
+	script(src='/static/js/jquery.mb.YTPlayer.js')
+	script(src='/static/js/scripts.js')
+	script(src='/static/js/vue.js')
+	script(src='/static/js/axios.min.js')
+	script(src='/static/js/Chart.bundle.min.js')
+	script(src='/static/js/Chart.min.js')
+	script(src='/static/js/html2canvas.min.js')
+	script(src='/static/js/jspdf.min.js')
+	script(src='/static/js/FileSaver.js')
+	script.
+		console.log(JSON.parse('!{transactionResponse.data}'));
+		var urlApi = "https://scoutservice.herokuapp.com/";
+		var app = new Vue({
+			el : '#app',
+			data: {
+				letters : '0123456789ABCDEF',
+				shorthandRegex : /^#?([a-f\d])([a-f\d])([a-f\d])$/i,
+				estadisticas : JSON.parse('!{transactionResponse.data}'),
+				seen : false
+			},
+			methods: {
+				getRandomColor: function(){
+					var color = '#';
+					for (var i = 0; i < 6; i++) {
+						color += this.letters[Math.floor(Math.random() * 16)];
+					}
+					color = color.replace(this.shorthandRegex, function(m, r, g, b) {
+						return r + r + g + g + b + b;
+					});
+					var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(color);
+
+					return result ? {
+						r: parseInt(result[1], 16),
+						g: parseInt(result[2], 16),
+						b: parseInt(result[3], 16),
+					} : null;
+				},
+				inicializarEstadisticas: function(){
+					this.estadisticas.clubes.forEach(club => {
+						club.sedes.forEach(sede => {
+							sede.equipos.forEach(equipo =>{
+								equipo.partidos.forEach(partido =>{
+									this.estadisticas.acciones.forEach(accion =>{
+										var cod = partido.nid_partid + '' + accion.nid_accion
+										var jugadores = new Array();
+										var backgroundColor = new Array();
+										var borderColor = new Array();
+										var dataEstadisticas = new Array();
+										var estadistica_accion = partido.estadisticas.filter(element => element.nid_accion == accion.nid_accion);
+										equipo.jugadores.forEach(jugador =>{
+											jugadores.push(jugador.no_jugado);
+											color = this.getRandomColor();
+											backgroundColor.push('rgba(' + color.r + ',' + color.g + ',' + color.b + ',0.2)');
+											borderColor.push('rgba(' + color.r + ',' + color.g + ',' + color.b + ',1)');
+											estadistica_accion.forEach(estadistica =>{
+												if(estadistica.nid_jugado == jugador.nid_jugado){
+													dataEstadisticas.push(estadistica.qt_accion);
+												}
+											});
+										});
+										var ctx = document.getElementById(cod).getContext('2d');
+										var Report = new Chart(ctx, {
+											type : 'bar',
+											data: {
+												labels: jugadores,
+												datasets: [{
+													label: accion.no_accion,
+													data: dataEstadisticas,
+													backgroundColor: backgroundColor,
+													borderColor: borderColor,
+													borderWidth: 1
+												}]
+											},
+											options: {
+												scales: {
+													yAxes: [{
+														ticks: {
+															beginAtZero:true
+														}
+													}]
+												}
+											}
+										});
+									});
+								});
+							});
+						});
+					});
+				},
+				print: function(){
+					this.seen = true;
+					axios.post(urlApi + 'club', {
+						command : 'GET_REPORT_STATISTICS',
+							transaction : {
+								uri : window.location.href
+							}
+					}, {
+						headers : {
+							Authorization: "Bearer " + this.getParameterByName('token')
+						}
+					}).then(response => {
+						if(response.data.status == "ERROR"){
+							alert(response.data.message);
+						}else{
+							var oReq = new XMLHttpRequest();
+							var URLToPDF = response.data.transactionResponse.secure_url;
+							oReq.open("GET", URLToPDF, true);
+							oReq.responseType = "blob";
+							var f = new Date();
+							var name = 'report' + 
+								f.getDate().toString() + (f.getMonth() +1).toString() + f.getFullYear().toString() + 
+								f.getHours().toString() + f.getMinutes().toString() + f.getSeconds().toString() + '.pdf'
+							oReq.onload = function() {
+								// Once the file is downloaded, open a new window with the PDF
+								// Remember to allow the POP-UPS in your browser
+								var file = new Blob([oReq.response], { 
+									type: 'application/pdf' 
+								});
+								
+								// Generate file download directly in the browser !
+								saveAs(file, name);
+							};
+							oReq.send();
+							this.seen = false;
+						}
+					});
+				},
+				getParameterByName: function(name){
+					const urlParams = new URLSearchParams(window.location.search);
+					const param = urlParams.get(name);
+					return param;
+				}
+			},
+			mounted : function(){
+				if(this.estadisticas.type == 1){
+					this.inicializarEstadisticas();
+				}
+			}
+		});

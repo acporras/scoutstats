@@ -1,0 +1,380 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jjoe64:graphview:4.2.2] /home/alex/.gradle/caches/transforms-2/files-2.1/64d16d01bb22e7a784263a9999234d3f/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+	package
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:4:5-50
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:1-118:12
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:8:5-116:19
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:9:5-20
+MERGED from [com.jjoe64:graphview:4.2.2] /home/alex/.gradle/caches/transforms-2/files-2.1/64d16d01bb22e7a784263a9999234d3f/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] /home/alex/.gradle/caches/transforms-2/files-2.1/64d16d01bb22e7a784263a9999234d3f/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:16:9-48
+	android:roundIcon
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:14:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:15:9-44
+activity#com.scouterperu.scouterstatsv3admin.SignInActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:17:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.scouterperu.scouterstatsv3admin.SignUpActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:24:9-26:53
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:26:13-50
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:25:13-43
+activity#com.scouterperu.scouterstatsv3admin.SedesActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:27:9-30:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:29:13-49
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:28:13-42
+activity#com.scouterperu.scouterstatsv3admin.AgregarSedeActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:31:9-34:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:33:13-50
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:32:13-48
+activity#com.scouterperu.scouterstatsv3admin.SedeActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:35:9-38:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:37:13-48
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:38:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:36:13-41
+activity#com.scouterperu.scouterstatsv3admin.EncargadosActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:39:9-42:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:41:13-54
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:40:13-47
+activity#com.scouterperu.scouterstatsv3admin.AgregarEncargadoActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:43:9-46:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:45:13-55
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:44:13-53
+activity#com.scouterperu.scouterstatsv3admin.EncargadoActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:47:9-50:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:49:13-53
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:48:13-46
+activity#com.scouterperu.scouterstatsv3admin.EliminarEncargadoActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:51:9-54:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:53:13-67
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:52:13-54
+activity#com.scouterperu.scouterstatsv3admin.EliminarSedeActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:55:9-58:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:57:13-57
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:56:13-49
+activity#com.scouterperu.scouterstatsv3admin.ConfiguracionActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:59:9-62:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:61:13-57
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:60:13-50
+activity#com.scouterperu.scouterstatsv3admin.ConfiguracionParteDefensivaActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:63:9-66:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:65:13-66
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:66:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:64:13-64
+activity#com.scouterperu.scouterstatsv3admin.ConfiguracionParteCentralActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:67:9-70:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:69:13-64
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:70:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:68:13-62
+activity#com.scouterperu.scouterstatsv3admin.ConfiguracionParteOfensivaActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:71:9-74:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:73:13-65
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:72:13-63
+activity#com.scouterperu.scouterstatsv3admin.TipoReportesActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:75:9-78:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:77:13-57
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:78:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:76:13-49
+activity#com.scouterperu.scouterstatsv3admin.ReportesSedesActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:79:9-82:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:81:13-51
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:82:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:80:13-50
+activity#com.scouterperu.scouterstatsv3admin.ReportesEquiposActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:83:9-86:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:85:13-53
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:84:13-52
+activity#com.scouterperu.scouterstatsv3admin.ReportesJugadoresActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:87:9-90:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:89:13-55
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:88:13-54
+activity#com.scouterperu.scouterstatsv3admin.ReporteJugadorActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:91:9-94:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:93:13-52
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:94:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:92:13-51
+activity#com.scouterperu.scouterstatsv3admin.ReportesSedesListActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:95:9-98:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:97:13-52
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:98:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:96:13-54
+activity#com.scouterperu.scouterstatsv3admin.ReportesEquiposListActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:99:9-102:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:101:13-52
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:102:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:100:13-56
+activity#com.scouterperu.scouterstatsv3admin.DeudaResumenActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:103:9-106:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:105:13-50
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:106:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:104:13-49
+activity#com.scouterperu.scouterstatsv3admin.PagarActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:107:9-51
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:107:19-48
+activity#com.scouterperu.scouterstatsv3admin.PlanesActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:108:9-111:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:110:13-43
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:111:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:109:13-43
+activity#com.scouterperu.scouterstatsv3admin.TarjetaActivity
+ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:112:9-115:59
+	android:label
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:114:13-44
+	android:theme
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:115:13-56
+	android:name
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml:113:13-44
+uses-sdk
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e0d6f9257ccfda12a350d3e5cb5a1d45/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/770444e0e7af862d2ba37ea72d8a1866/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/alex/.gradle/caches/transforms-2/files-2.1/9b326beaa93f3150b3e0878d34ea7822/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jjoe64:graphview:4.2.2] /home/alex/.gradle/caches/transforms-2/files-2.1/64d16d01bb22e7a784263a9999234d3f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] /home/alex/.gradle/caches/transforms-2/files-2.1/64d16d01bb22e7a784263a9999234d3f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/cc1ac6fc61473e653789edd30ee6278f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c49a85563297161d02337c557e400ead/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/480e8eda92d1db08b88de0b4359dd816/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/f718841e36261cbe004af3fd7de66395/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/17a672f7555e21edb8ca28eeaf6be6a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/38360fb4e53e5f5464fef51bc116bff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/6d98f59a878e878fdfe3e6752b28328b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ce922d8a59fc8b1e88fce1994613cec2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a149ceb513f40570523c6aeb697f2897/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/776828f75b06aca7011f6a4ab54bc996/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e7ccbef2cd53f199143f064067d95dbc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/058dc1bb0eecc0eb30683587c15b3029/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ad59f2930aa6717e63910759f3c9a55e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/afe51b66e6ddd9feb4d27bd47352f530/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/719d59caacac594085ca04c3907570c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3110100f2126c1328bfe9ed5692e5ae9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/2f82bb73ff8afcf38b0c8dbf17261345/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/ddce40e89fb609d3ce8a219049a80da7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/004b808f75aa4c7142a66f0c11973694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/a33b7e1528d727138054196d2383cf8b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/3277b1f9ae115521c584db9769d082eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/1dc56b4297175d16007820ffcd42f82c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a9e48ff9fc1f59abedfef7f9ccb503b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/c3cdc821376c3f0656313482819438c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e4e71519f349481d7db54e7fd45f69d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/e6c18d2cb484f84e2fb5470ae1318084/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/940114a95d114710581558dc82ef04f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/alex/.gradle/caches/transforms-2/files-2.1/8ba1d31f2f8f655a7c7656a43532cd4c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/cf7ae108dbfe120403b2f6e69d9657a5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/c89caec9691c099b91a55ab011e45685/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/alex/.gradle/caches/transforms-2/files-2.1/a40e5815b2784bdf1b1f1e01eb5a618a/AndroidManifest.xml:20:5-44
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		ADDED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/Documentos/Alex JC/Proyectos/Scouter Stats/Aplicaciones/ScouterStatsv3Admin/app/src/main/AndroidManifest.xml

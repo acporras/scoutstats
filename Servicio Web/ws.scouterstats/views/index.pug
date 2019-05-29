@@ -1,0 +1,111 @@
+doctype html
+html.backgroundColor(lang='es-PE')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title Perú Fútbol Stats - Servicio Web
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Lemon', rel='stylesheet', type='text/css')
+    link(rel='shortcut icon', href='/static/img/favicon.jpg')
+    // CSS
+    link(rel='stylesheet', type='text/css', href='/static/css/bootstrap.min.css')
+    link(rel='stylesheet', type='text/css', href='/static/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='/static/css/animate.css')
+    link(rel='stylesheet', type='text/css', href='/static/css/YTPlayer.css')
+    link(rel='stylesheet', type='text/css', href='/static/css/supersized.css')
+    link(rel='stylesheet', type='text/css', href='/static/css/styles.css')
+  body
+    // CONTAINER
+    .container
+      .row
+        .col-md-12
+          .col-md-1.col-md-offset-11
+            a.btn.btn-default(href="/login") Acceder
+          .section.clearfix
+            h1.logo.animated.fadeInDown Perú Fútbol Stats
+            #text_slider
+              .slide.clearfix
+                h2 Estamos trabajando en la nueva web.
+              .slide.clearfix
+                h2 Te veo pronto!
+          // COUNTDOWN
+          #countdown.section.clearfix.animated.fadeIn
+            // Days
+            .countdown_group
+              span.countdown_value {dnn}
+              span.countdown_help {dl}
+            // Hours
+            .countdown_group
+              span.countdown_value {hnn}
+              span.countdown_help {hl}
+            // Minutes
+            .countdown_group
+              span.countdown_value {mnn}
+              span.countdown_help {ml}
+            // Seconds
+            .countdown_group
+              span.countdown_value {snn}
+              span.countdown_help {sl}
+          // END COUNTDOWN
+          .section.clearfix.animated.fadeIn
+            p Quiere ser notificado cuando el sitio web esté listo?
+            form#form_newsletter
+              .row
+                .col-md-6.col-md-offset-3
+                  .input-group.input-group-lg
+                    input.form-control(type='email', name='email', placeholder='Ingrese su Email')
+                    span.input-group-btn
+                      button.btn.btn-default(type='submit')
+                        i.fa.fa-check
+                        |  Notificarme!
+                  .clearfix
+                  #form_newsletter_result
+          #contact.section.clearfix.animated.fadeIn
+            a(href='#')
+              i.fa.fa-envelope-o
+              |  ggoyzueta@perufutbolstats.com
+            a(href='#')
+              i.fa.fa-phone
+              |  (+51) 983 400 765
+          .section.clearfix
+            a.btn.btn-transparent.btn-facebook(href='#')
+              i.fa.fa-facebook.fa-fw
+            a.btn.btn-transparent.btn-twitter(href='#')
+              i.fa.fa-twitter.fa-fw
+            a.btn.btn-transparent.btn-googleplus(href='#')
+              i.fa.fa-google-plus.fa-fw
+            a.btn.btn-transparent.btn-youtube(href='#')
+              i.fa.fa-youtube.fa-fw
+            a.btn.btn-transparent.btn-pinterest(href='#')
+              i.fa.fa-pinterest.fa-fw
+            a.btn.btn-transparent.btn-instagram(href='#')
+              i.fa.fa-instagram.fa-fw
+            a.btn.btn-transparent.btn-linkedin(href='#')
+              i.fa.fa-linkedin.fa-fw
+          .section.clearfix
+            a.open_aboutus.btn.btn-transparent.animated.fadeInUp(href='#') Más acerca de la compañia
+    // END CONTAINER
+    // FOOTER
+    #footer
+      p Diseñado por www.sociallazy.com
+    // END FOOTER
+    // ABOUT US
+    #about_us
+      h1 Sobre nosotros
+      .container
+        .row
+          .col-lg-12
+            p
+              | Muy pronto tendras mas información sobre nosotros.
+      a.close_aboutus.btn.btn-default(href='#')
+        i.fa.fa-times-circle
+        |  Cerrar
+    // END ABOUT US
+    // JS
+    script(src='/static/js/jquery.min.js')
+    script(src='/static/js/jquery.plugin.js')
+    script(src='/static/js/bootstrap.min.js')
+    script(src='/static/js/jquery.countdown.min.js')
+    script(src='/static/js/supersized.min.js')
+    script(src='/static/js/jquery.cycle.min.js')
+    script(src='/static/js/jquery.mb.YTPlayer.js')
+    script(src='/static/js/scripts.js')
